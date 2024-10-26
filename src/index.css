@@ -1,0 +1,82 @@
+/* General styling for the body and container */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.container {
+  width: 100%;
+  max-width: 400px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+}
+
+/* Styling for the input field */
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+/* Styling for the Lookup button */
+button {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  color: white;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Styling for the error messages */
+.error {
+  color: #ff4d4d;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+/* Styling for the results section with a grid layout */
+.results {
+  display: grid;
+  gap: 10px;
+  margin-top: 20px;
+  padding: 15px;
+  box-sizing: border-box;
+  border: 1px solid yellowgreen;
+  border-radius: 4px;
+  text-align: left;
+}
+
+/* Styling for each detail item within the grid */
+.results p {
+  font-size: 16px;
+  margin: 0;
+  padding: 8px;
+  background-color: rgba(red, green, blue,alpha);
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+}
+
+
+
+
